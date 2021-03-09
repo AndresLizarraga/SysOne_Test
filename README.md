@@ -36,10 +36,10 @@ Este repositorio es la solución del desafío técnico por parte de SysOne.
      }
 ```
 - En donde los campos: 
-        - "modelo" : Es el nombre del modelo del automovil que se creará. Este campo es de tipo de dato String.
-        - "placa" : Es el nombre de la placa del automovil que se creará. Este campo es de tipo de dato String.
-        - "variante" Es el nombre de la variante con la que se producirá el automovil. Este campo es de tipo Enum, el cual puede recibir tres valores: "SEDAN", "COUPE" o "FAMILIAR", cada uno de estos valores con un costo respectivo el cual es de tipo BigDecimal. Este campo es obligatorio.
-        - "adicionales" : Es el nombre de los opcionales que pueden incluir los automoviles fabricados. Este campo es de tipo Enum, el cual puede recibir cinco valores: "TC" , "AA", "ABS" , "AB" o "CC", cada uno de estos valores tiene un costo respectivo el cual es de tipo BigDecimal. Este campo es opcional.
+     - "modelo" : Es el nombre del modelo del automovil que se creará. Este campo es de tipo de dato String.
+     - "placa" : Es el nombre de la placa del automovil que se creará. Este campo es de tipo de dato String.
+     - "variante" Es el nombre de la variante con la que se producirá el automovil. Este campo es de tipo Enum, el cual puede recibir tres valores: "SEDAN", "COUPE" o "FAMILIAR", cada uno de estos valores con un costo respectivo el cual es de tipo BigDecimal. Este campo es obligatorio.
+     - "adicionales" : Es el nombre de los opcionales que pueden incluir los automoviles fabricados. Este campo es de tipo Enum, el cual puede recibir cinco valores: "TC" , "AA", "ABS" , "AB" o "CC", cada uno de estos valores tiene un costo respectivo el cual es de tipo BigDecimal. Este campo es opcional.
             
 -  http://localhost:8080/modificarAutomovil/{id} - PUT API que modifica una entidad de tipo 'Automovil' y la persiste en la base de datos. La API recibe un id como variable de ruta la cual corresponde al id de la entidad persistida que se desea modificar, así como también, un objeto Json como body de la solicitud para modificar la entidad deseada 'Automovil'.
 -Un ejemplo del body de la solicitud, al igual que el objeto Json que recibe la POST API:
