@@ -44,19 +44,19 @@ Este repositorio es la solución del desafío técnico por parte de SysOne.
 -  http://localhost:8080/modificarAutomovil/{id} - PUT API que modifica una entidad de tipo 'Automovil' y la persiste en la base de datos. La API recibe un id como variable de ruta la cual corresponde al id de la entidad persistida que se desea modificar, así como también, un objeto Json como body de la solicitud para modificar la entidad deseada 'Automovil'.
 -Un ejemplo del body de la solicitud, al igual que el objeto Json que recibe la POST API:
 ```  
-                         {
-	                   "modelo":"Corsa",
-	                   "placa" : "RTX-360",
-	                   "variante" : "SEDAN",
-                           "adicionales": [
-                         {
-                           "opcional": "ABS"
-                          } ,
-                           {
-                            "opcional": "AB"
-                           }
-                         ]
-                         }
+   {
+     "modelo":"Corsa",
+     "placa" : "RTX-360",
+     "variante" : "SEDAN",
+     "adicionales": [
+      {
+        "opcional": "ABS"
+      } ,
+      {
+        "opcional": "AB"
+      }
+      ]
+    }
 ```
 
   - http://localhost:8080/eliminarAutomovil/{id} - DELETE API que elimina una entidad 'Automovil' de la base de datos. Esta API recibe un id como variable de ruta la cual corresponde al id de la entidad que se desea eliminar.
