@@ -3,7 +3,7 @@ Este repositorio es la solución del desafío técnico por parte de SysOne.
 
 # Características del proyecto:
 
-- Proyecto Maven con integración de SpringBoot que utiliza el administrador de base de datos en memoria H2 (DBMS), y a su vez, con la suite de tests automatizados Junit y Mockito. La versión de Java utilizada para el desarrollo de este proyecto es 1.8.
+- Proyecto Maven con integración de SpringBoot que utiliza el administrador de base de datos en memoria H2 (DBMS), y a su vez, con la suite de tests automatizados Junit 4 y Mockito. La versión de Java utilizada para el desarrollo de este proyecto es 1.8.
 - El proyecto esta estructurado de la siguiente forma:
     -package com.sysone.devtest.controller 
            > Capa que contiene toda la lógica del controlador en donde se implementan y gestionan las APIs de la aplicación. Cada API tiene su información detallada en el Javadoc.
